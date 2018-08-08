@@ -1,0 +1,18 @@
+
+h1 {
+  text-align: center;
+  color: royalblue;
+  font-size: 50px;
+}
+* {
+  background: Black;
+}
+img{
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: block;
+  height: 50%;
+  width: 50%;
+}
