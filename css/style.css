@@ -3,6 +3,10 @@ h1 {
   text-align: center;
   color: royalblue;
   font-size: 50px;
+  border: solid royalblue;
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 * {
   background: Black;
@@ -10,8 +14,10 @@ h1 {
 
 img{
   transform: rotate(90deg);
-  position:relative;
-  top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
   height: 35%;
   width: 35%;
 }
@@ -21,8 +27,12 @@ img{
   font-size: 20px;
   position: relative;
   bottom: -125px;
-  list-style: decimal;
-  display: inline;
+  text-align: center;
+  border:solid royalblue;
+  border-radius: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+
 }
 
 #favMoviesTitle {
