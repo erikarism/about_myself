@@ -1,18 +1,20 @@
 
 h1 {
   text-align: center;
-  color: royalblue;
+  color: white;
   font-size: 50px;
-  border: solid royalblue;
+  border: solid white;
   border-radius: 20px;
   margin-left: 30%;
   margin-right: 30%;
 }
-* {
-  background: Black;
+body {
+  background-image: url('../img/Background.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
-img{
+img {
   transform: rotate(90deg);
   display: block;
   margin-left: auto;
@@ -23,18 +25,68 @@ img{
 }
 
 .list {
-  color: royalblue;
+  color: white;
   font-size: 20px;
   position: relative;
-  bottom: -125px;
   text-align: center;
-  border:solid royalblue;
-  border-radius: 20px;
   margin-left: 35%;
   margin-right: 35%;
-
 }
 
 #favMoviesTitle {
   padding-bottom: 10px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 1%;
+}
+#bio {
+  text-align: center;
+  color:  white;
+  font-size: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  border: solid white;
+  border-radius: 20px;
+}
+#movietitle {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: solid white;
+  border-radius: 20px;
+}
+
+#workexp {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: solid white;
+  border-radius: 20px;
+}
+
+ul {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+ul li:nth-child(2n+1) {
+  Margin-top: 5%;
 }

@@ -38,10 +38,10 @@ function aboutErikQuestions() {
   }
   console.log(userName + ' was asked if Erik can do a double backlfip. ' + userName + ' responded ' + answerThree);
 
-  var answerFour = prompt('Does Erik a homeowner?').toLowerCase();
+  var answerFour = prompt('Is Erik a homeowner?').toLowerCase();
 
   if (answerFour === 'n' || answerFour === 'no') {
-    alert('You guess correctly, he\'s broke... the closest he is to owning a home is the cardboard box he still haven\'t thrown away yet. I probably should throw that away.');
+    alert('You guess correctly, he\'s broke... the closest thing to a home he owns is a cardboard box that he still hasn\'t thrown away yet.');
     correctCounter++;
   } else {
     alert('FAILED! Try again, or don\'t... and go do something productive. Don\'t forget about my 5 dollars.');
@@ -50,7 +50,7 @@ function aboutErikQuestions() {
 
   var answerFive = prompt('Has Erik gone skydiving?').toLowerCase();
 
-  if (answerFive === 'y' || answerFive === 'yes') {
+  if (answerFive === 'n' || answerFive === 'no') {
     alert('Uh, no. People don\'t fly.');
     correctCounter++;
   } else {
