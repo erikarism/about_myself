@@ -5,7 +5,7 @@ function aboutErikQuestions() {
   var userName = prompt('Excuse me, who is you?');
   var correctCounter = 0;
 
-  alert('Ugh, ' + userName + ', it\'s you again. Soooo, since i\'m obviously a celebrity, i\'m going to ask you 5 yes or no questions about myself. If you fail, you\'ll owe me 5 dollars. If you get it right, then you still owe me 5 dollars.');
+  alert('Ugh, ' + userName + ', it\'s you again. Soooo, since i\'m obviously a celebrity, i\'m going to ask you 7 yes or no questions about myself. If you fail, you\'ll owe me 5 dollars. If you get it right, then you still owe me 5 dollars.');
 
   // Ask them five yes/no questions
   var answerOne = prompt('Is Erik\'s favorite color fuchsia?').toLowerCase();
